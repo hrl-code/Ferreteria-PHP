@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_listado_articulos"
+            android:icon="@android:drawable/ic_menu_view"
+            android:title="@string/menu_listado_articulos" />
+
+        <item
+            android:id="@+id/nav_ofertas"
+            android:icon="@android:drawable/ic_menu_today"
+            android:title="@string/menu_ofertas" />
+
+        <item
+            android:id="@+id/nav_nuevo_articulo"
+            android:icon="@android:drawable/ic_menu_add"
+            android:title="@string/menu_nuevo_articulo"
+            android:visible="false" />
+
+        <item
+            android:id="@+id/nav_listado_usuarios"
+            android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="@string/menu_listado_usuarios"
+            android:visible="false" />
+
+        <item
+            android:id="@+id/nav_nuevo_usuario"
+            android:icon="@android:drawable/ic_menu_add"
+            android:title="@string/menu_nuevo_usuario"
+            android:visible="false" />
+
+        <item
+            android:id="@+id/nav_mi_cuenta"
+            android:icon="@android:drawable/ic_menu_preferences"
+            android:title="@string/menu_mi_cuenta" />
+    </group>
+</menu>

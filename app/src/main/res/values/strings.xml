@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">FerreteriaPHP</string>
+    <string name="app_title">FerreteriaPHP</string>
+    <string name="login_subtitle">Acceso a la aplicación</string>
+    <string name="label_username">Usuario</string>
+    <string name="label_password">Contraseña</string>
+    <string name="action_login">Entrar</string>
+    <string name="error_login">Error en el logado. Inténtelo de nuevo</string>
+    <string name="error_empty_fields">Por favor complete todos los campos</string>
+    <string name="error_connection">Error de conexión con el servidor</string>
+
+    <!-- Menu -->
+    <string name="menu_articulos_destacados">Artículos destacados</string>
+    <string name="menu_listado_articulos">Listado de artículos</string>
+    <string name="menu_ofertas">Ofertas</string>
+    <string name="menu_nuevo_articulo">Nuevo artículo</string>
+    <string name="menu_listado_usuarios">Listado de usuarios</string>
+    <string name="menu_nuevo_usuario">Nuevo usuario</string>
+    <string name="menu_mi_cuenta">Mi cuenta</string>
+
+    <!-- Articulos -->
+    <string name="articulos_destacados">Artículos destacados</string>
+    <string name="listado_articulos">Listado de artículos</string>
+    <string name="detalle_articulo">Detalle de artículo</string>
+    <string name="nuevo_articulo">Nuevo artículo</string>
+    <string name="cat">Cat.:</string>
+    <string name="desc">Desc.:</string>
+    <string name="precio">Precio</string>
+    <string name="stock">Stock</string>
+    <string name="origen">Origen</string>
+    <string name="categoria">Categoría</string>
+    <string name="descripcion">Descripción</string>
+    <string name="nombre">Nombre</string>
+    <string name="nombre_articulo">Nombre del artículo</string>
+    <string name="destacado">Destacado</string>
+    <string name="oferta">Oferta</string>
+    <string name="registrar">Registrar</string>
+    <string name="actualizar">Actualizar</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="precio_oferta">Precio oferta</string>
+    <string name="confirmacion_eliminar_articulo">¿Realmente desea eliminar el artículo?</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="ok">OK</string>
+    <string name="actualizacion_articulos">Actualización de artículos</string>
+    <string name="actualizacion_realizada">Actualización realizada</string>
+    <string name="eliminacion_articulos">Eliminación de artículos</string>
+
+    <!-- Ofertas -->
+    <string name="ofertas_titulo">Ofertas</string>
+
+    <!-- Usuarios -->
+    <string name="listado_usuarios">Listado de usuarios</string>
+    <string name="nuevo_usuario">Nuevo usuario</string>
+    <string name="detalle_usuario">Detalle de usuario</string>
+    <string name="mi_cuenta">Mi cuenta</string>
+    <string name="apellidos">Apellidos</string>
+    <string name="edad">Edad</string>
+    <string name="tipo">Tipo</string>
+    <string name="contrasena">Contraseña</string>
+
+    <!-- Categorías -->
+    <string name="categoria_menaje">Menaje</string>
+    <string name="categoria_herramientas">Herramientas</string>
+    <string name="categoria_decoracion">Decoración</string>
+
+    <!-- Orígenes -->
+    <string name="origen_nacional">Nacional</string>
+    <string name="origen_internacional">Internacional</string>
+
+    <!-- Arrays -->
+    <string-array name="categorias">
+        <item>Herramientas</item>
+        <item>Menaje</item>
+        <item>Decoración</item>
+    </string-array>
+
+    <string-array name="origenes">
+        <item>Nacional</item>
+        <item>Internacional</item>
+    </string-array>
+
+    <string-array name="tipos_usuario">
+        <item>user</item>
+        <item>admin</item>
+    </string-array>
+</resources>
