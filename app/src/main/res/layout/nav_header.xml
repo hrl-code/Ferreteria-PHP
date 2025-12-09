@@ -1,26 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="176dp"
-    android:background="?attr/colorPrimary"
-    android:gravity="bottom"
+    android:layout_height="200dp"
+    android:background="@drawable/gradient_primary"
+    android:gravity="center_vertical"
     android:orientation="vertical"
-    android:padding="16dp"
+    android:padding="20dp"
     android:theme="@style/ThemeOverlay.AppCompat.Dark">
 
+    <!-- Logo -->
     <ImageView
-        android:layout_width="64dp"
-        android:layout_height="64dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="12dp"
         android:contentDescription="@string/app_name"
-        android:src="@android:drawable/ic_menu_manage" />
+        android:scaleType="fitCenter"
+        android:src="@drawable/logo_ruiz" />
 
+    <!-- Brand Name -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="RUIZ FERRETEROS"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <!-- Username -->
     <TextView
         android:id="@+id/textNavUsername"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:text="@string/app_title"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        android:textColor="@android:color/white" />
+        android:layout_marginTop="4dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Usuario"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:alpha="0.9" />
 
 </LinearLayout>
